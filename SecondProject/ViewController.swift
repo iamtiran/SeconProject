@@ -17,6 +17,8 @@ class ViewController: UIViewController {
     override func beginAppearanceTransition(_ isAppearing: Bool, animated: Bool) {
         
     }
-
+    override func motionBegan(_ motion: UIEvent.EventSubtype, with event: UIEvent?) {
+        
+    }
 }
 
